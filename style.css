@@ -22,7 +22,7 @@
     border: none;
     
 }
-
+/* Menu part */
 #navBar{
     display: flex;
     align-items: center;
@@ -34,6 +34,7 @@
     z-index: 999;
 }
 .navParttwo{
+    /* nave items */
     display: flex;
     align-items: center;
     gap: 15px;
@@ -42,6 +43,9 @@
     cursor: pointer;
     font-size: 18px;
     color: white;
+}
+.navParttwo p:hover{
+    color: #fb2056;
 }
 /* Header Close */
 
@@ -227,4 +231,105 @@
     padding-bottom: 20px;
     padding-left: 10%;
     padding-right: 10%;
+}
+
+
+
+/* Responsicve Responsive Responsive Responsive */
+
+@media screen and (max-width:576px){
+    .navParttwo{
+        display: none;
+    }
+    
+}
+@media screen and (max-width:576px){
+    .heroSection1 {
+        height: 500px;
+        margin-bottom: 80px;
+    }
+    .heroContent h1{
+        font-size: 50px;
+    }
+    .heroContent {
+        margin-top: 200px;
+    }
+    
+}
+@media screen and (max-width:567px){
+    .ServiceOverlay{
+        padding: 10px;
+    }
+    .aboutUscontent h1{
+        font-size: 26px;
+    }
+    .aboutUscontent{
+        margin-bottom: 60px;
+    }
+
+    /* ! Service Section Starts  */
+    .ServiceOverlay {
+        flex-direction: column;
+    }
+    .ServiceOverlay .left h1,
+    .ServiceOverlay .right h1,
+    .ServiceOverlay .left h3,
+    .ServiceOverlay .right h3 {
+        font-size: 20px;
+    }
+    /* ! Project area Starts  */
+    .projectbox{
+        flex-direction: column;
+        /* margin-bottom: 900px; */
+    }
+    #globalBox>img{
+        height: 300px;
+        width: 300px;
+        margin: 0 auto;
+        border-radius: 5px;
+    }
+        
+}
+
+@media screen and (max-width:576px) {
+    .beforeFooter{
+        margin-top: 900px;
+        flex-direction: column;
+        padding:0 10px;
+        text-align: center;
+    }
+    .beforeFooter h1{
+        font-size: 25px;
+        margin-bottom: -70px;
+    }
+
+    /* !footer */
+    #footer{
+        flex-direction: column;
+        padding: 10px;
+        position: relative;
+    }
+    .footerMiddle{
+        margin-left: -300px;
+        margin-top: 30px;
+
+    }
+    .footerRight{
+        position: absolute;
+        right: 14px;
+        top: 80%;
+    }
+
+
+
+        .copyrightPart{
+            flex-direction: column;
+            padding-top: 150px;
+           
+        }
+        .copyrightPart h2{
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+    
 }
