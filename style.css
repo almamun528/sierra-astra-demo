@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#globalBox{
+    height: 500px;
+    width: 290px;
+}
+#buttonBlobal{
+    background-color: #fb2056;
+    color: #ffff;
+    font-size: medium;
+    font-weight: 600;
+    padding: 16px 30px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+    
+}
+
+#navBar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 20px;
+    background-color: transparent;
+    position: absolute;
+    width: 100%;
+    z-index: 999;
+}
+.navParttwo{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.navParttwo p{
+    cursor: pointer;
+    font-size: 18px;
+    color: white;
+}
+/* Header Close */
+
+/* Hero section Start */
+.heroSection1{
+    height: 800px;
+    width: auto;
+    background-image: url('./images/bg-02-free-img.jpg');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+.heroSectionOverlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.623);
+}
+.heroContent{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20%;
+    color: white;
+}
+.heroContent h1{
+    font-size: 80px;
+    margin: 15px auto;
+}
+.heroContent h3{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.heroContent .line{
+    height: 3px;
+    width: 200px;
+    background-color: #fb2056;
+    margin: 15px auto;
+}
+/* Hero Section Is end */
+
+
+.aboutUs{
+    height: 500px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.aboutUs P{
+    margin: 15px auto;
+    font-size: 18px;
+    line-height: 29px;
+    font-weight: 100;
+}
+.aboutUs h1{
+    font-size: 50px;
+    margin: 15px auto;
+}
+.aboutUs h3{
+    font-size: 30px;
+}
+
+/* Service area start-------------------------------------------------- */
+
+.projectContent{
+    text-align: center;
+    padding: 30px 0px;
+}
+.projectContent h1{
+    font-size: 34px;
+    margin: 15px 0px;
+
+}
+.serviceArea{
+    background-image: url("./images/bg-09-free-img.jpg");
+    width:100%;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+.ServiceOverlay{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.795);
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+}
+.ServiceOverlay hr{
+    color: white;
+    width: 60%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.ServiceOverlay h3{
+    font-size: 35px;
+    margin: 10px auto;
+}
+.ServiceOverlay p{
+    font-size: 20px;
+}
+.ServiceOverlay h4{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.ServiceOverlay .right{
+    font-size: 30px;
+}
+
+/* project Box area  */
+.project{
+    height:700px;
+    width: 100%;
+}
+.projectbox{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px 30px;
+}
+.projectbox h1{
+    font-size: 24px;
+    margin: 10px auto;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+}
+.projectbox p{
+    font-size: 15px;
+    margin: 10px auto;
+    line-height: 20px;
+}
+
+/* beforeFooter Start */
+.beforeFooter{
+    height: 200px;
+    width: 100%;
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* footer Start */
+#footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #011627;
+    color: white;
+    height: 300px;
+}
+#footer p{
+   margin: 15px 0px;
+   font-size: 18px;
+}
+#footer ul li{
+    list-style: none;
+    padding-top: 5px;
+    cursor: pointer;
+}
+.footerMiddle h2{
+    margin-top: -25px;
+}
+/* Footer END */
+/* copyrightPart START */
+
+.copyrightPart{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #011627;
+    color: white;
+    padding-bottom: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
